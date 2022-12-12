@@ -14,7 +14,15 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid green;
 
+}
 /*logo*/
 .logo {
     color:var(--title-text-color);
@@ -52,6 +60,8 @@ body{
 }
 
 .list{
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -81,6 +91,8 @@ body{
 
 /*out-nav*/
 .aut-nav .link{
+    /*display: inline-block;*/
+
     color:var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
@@ -97,19 +109,32 @@ body{
 }
 
  /*hero*/
+ .hero{
+    text-align: center;
+    
+ }
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 48px;
    color: var(--primary-white-color);
-   background-color: var(--primary-light-color);
+  
    font-weight: 600;
    font-size: 56px;
    line-height: 1.07;
-   text-align: center;
-
+  
+   margin-bottom: ;
+   background-color: var(--primary-light-color);
 }
 
  /*button*/
 
 .button{ 
+    display: inline-block;
+    border-radius: 4px;
+    padding: 16px 34px;
+    min-width: 170px;
+    border: 1px solid transparent;
+
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
     font-family: inherit;
@@ -118,6 +143,7 @@ body{
     line-height: 1.18;
     letter-spacing: 0.04em;
     cursor: pointer;
+    text-align: center;
 
 }
 .button.primary{
@@ -135,6 +161,7 @@ body{
     color:var(--accent-color);
 }
 .button.secondary {
+    border-color: var(--accent-color);
     color: var(--accent-color);
     background-color: var(--primary-cloud-color);
        
@@ -150,33 +177,60 @@ body{
 }
 
 /*section fuetere+team*/
+
+.section{
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+.fueture{
+    margin-top: 0;
+    margin-bottom: 120px;
+}
 .fueture-list .title, 
 .team-list .title{
+    margin-top: 0;
+    margin-bottom: 8px;
     color:var(--title-text-color);
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
 }
  .fueture-list .text{
+    margin-top: 0;
+    margin-bottom: 0;
    color: var(--primary-text-color);
    font-size: 16px;
    line-height: 2.5;
  }
 
 
+
+
 /*work*/
+.work{
+    margin-top: 0;
+    padding-bottom: 132px;
+}
 
 .work-list .title{
+    margin-top: 0;
+    margin-bottom: 72px;
     color:var(--title-text-color);
     font-weight: 600;
-    font-size: 36px;
+    font-size: 36px; 
     line-height: 1.11;
     text-align: center;
 }
 
 /*team*/
+.team{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .team .team-title{
+    margin-top: 0;
+    margin-bottom: 72px ;
     color:var(--title-text-color);
     font-weight: 600;
     font-size: 36px;
@@ -188,11 +242,15 @@ body{
 
 .team-list .text{
     color:var(--primary-text-color);
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
 
 .footer-text{
     color: var(--primary-light-color);
+    margin-top: 0;
+    margin-bottom: 100 px;
 }
 
 
@@ -216,9 +274,9 @@ line-height: 1.2;
 }
 
 
+/*чи потрібно задавати футеру і хетеру марджен,,,*
 
 
-
-
+/
 
 
