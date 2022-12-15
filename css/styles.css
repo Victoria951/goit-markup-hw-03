@@ -31,7 +31,7 @@ body{
 
 /*logo*/
 .logo {
-    display: flex;
+   display: flex;
    padding-top: 24px;
    padding-bottom: 24px;
    
@@ -131,7 +131,7 @@ body{
 }
 
 .aut-nav .item+.item{
-    margin-left: 40px; ;
+    margin-left: 40px; 
 }
 .aut-nav .link{
     display:flex;
@@ -156,6 +156,7 @@ body{
  /*hero*/
  .hero{
     text-align: center;
+
     
  }
 .hero-title{
@@ -225,19 +226,30 @@ body{
 .section{
     padding-top: 120px; 
     padding-bottom: 120px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
+
 }
+
+  
 .fueture{
-    margin-top: 0;
-    margin-bottom: 120px;
+    /* margin-top: 0;
+    margin-bottom: 120px; */
+   
+
+   
 }
 
 .fueture-list{
     display: flex;
-}
+    margin:  -24px;
 
+}
 .fueture-list .item{
     width: 264px;
+    margin:24px;
 }
+
 .fueture-list .title, 
 .team-list .title{
     margin-top: 0;
@@ -259,12 +271,23 @@ body{
 
 
 /*work*/
-.work{
-    margin-top: 0;
-    padding-bottom: 132px;
+.work{ 
+    /* margin-top: 0;
+    margin-bottom: 120px; */
+
+}
+.work-list{
+    display: flex;
+    margin: -24px;
+}
+.work-list .item{
+    width: 360px;
+}
+.work-list .item+.item{
+    margin: 24px;
 }
 
-.work-list .title{
+.work .title{
     margin-top: 0;
     margin-bottom: 72px;
     color:var(--title-text-color);
@@ -276,9 +299,8 @@ body{
 
 /*team*/
 .team{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
+}  
 
 .team .team-title{
     margin-top: 0;
@@ -290,8 +312,14 @@ body{
     text-align: center;
 
 }
+.team-list{
+    display: flex;
 
+}
+.team-list .item{
+    
 
+}
 .team-list .text{
     color:var(--primary-text-color);
     margin-top: 0;
