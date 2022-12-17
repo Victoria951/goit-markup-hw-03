@@ -253,7 +253,7 @@ body{
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
+    /* text-align: center; */
 }
  .fueture-list .text{
     margin-top: 0;
@@ -327,6 +327,9 @@ body{
  padding-bottom: 32px ; */
  padding: 32px 16px;
 }
+.team-list .title{
+    text-align: center;
+}
 
 /* ---FOOTER---- */
 .footer{
@@ -358,7 +361,7 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
-    padding-top: 96px;
+   
     
 }
 .button-container .item+.item{
@@ -385,7 +388,7 @@ body{
 .project-card .text{
     display:flex;
     margin-top: 0;
-    margin-bottom: 32px;  
+    margin-bottom:0;   
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.2;
@@ -408,6 +411,9 @@ body{
 .card-text{
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 0; 
+    border: 0.5px  solid var(--primary-cloud-color);
 }
 .card-element:nth-child(3n){
     margin-right: 0;
