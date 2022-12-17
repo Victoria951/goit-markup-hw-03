@@ -37,9 +37,7 @@ body{
 .logo {
    display: flex;
    padding-top: 24px;
-   padding-bottom: 24px;
-   
-
+   padding-bottom:24px ;
     color:var(--title-text-color);
     font-family: Raleway, cursive;
     font-size: 18px;
@@ -156,13 +154,15 @@ body{
 
  /*---HERO---*/
  .hero{
+    padding-top: 192px;
+    padding-bottom:192px ;
     text-align: center;
  }
 
 .hero-title{
     margin-top: 0;
     margin-bottom: 48px;
-   color: var(--primary-white-color);
+     color: var(--primary-white-color);
   
    font-weight: 600;
    font-size: 56px;
@@ -176,8 +176,7 @@ body{
 .button{ 
     display: inline-block;
     border-radius: 4px;
-    padding: 16px 34px;
-    min-width: 170px;
+    padding: 12px 24px;
     border: 1px solid transparent;
 
     color: var(--title-text-color);
@@ -227,6 +226,10 @@ body{
     padding-top: 120px; 
     padding-bottom: 120px;
 }
+.no-padding{
+    padding-bottom: 0;
+
+}
   
 .fueture{
     
@@ -234,14 +237,12 @@ body{
 
 .fueture-list{
     display: flex;
-    margin:  -24px;
+    gap: 24px;
 
 }
 .fueture-list .item{
     width: 264px;
-    margin: 0 24px;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 
 .fueture-list .title, 
@@ -252,13 +253,14 @@ body{
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
 }
  .fueture-list .text{
     margin-top: 0;
     margin-bottom: 0;
    color: var(--primary-text-color);
    font-size: 16px;
-   line-height: 2.5;
+   line-height: 1.5;
  }
 
 /*---WORK---*/
@@ -269,14 +271,12 @@ body{
 .work-list{
     display: flex;
     justify-content: center;
-    margin: -24px;
+    gap: 24px;
     
 }
 .work-list .item{
-    margin:  0 24px;
     width: 360px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 
@@ -308,45 +308,52 @@ body{
 .team-list{
     display: flex;
     justify-content: center;
-    margin: -24px;
+    gap: 24px;
 
 }
 .team-list .item{
-    margin:  0 24px;
     width: 264px;
-    margin-left: auto;
-    margin-right: auto;
+    
 
 }
 .team-list .text{
     color:var(--primary-text-color);
     margin-top: 0;
     margin-bottom: 32px;
+    text-align: center;
+}
+.title-text{
+ /* padding-left: 16px;
+ padding-bottom: 32px ; */
+ padding: 32px 16px;
 }
 
 /* ---FOOTER---- */
 .footer{
-   
+ padding-top: 100px; 
+ padding-bottom: 100px; 
     
 }
 .footer-logo{
     margin-bottom: 16px;
-    margin-right:1020px ;
-    margin-left: 156px;
+    padding: 0;
 
 }
 .footer-text{
     color: var(--primary-light-color);
     margin-top: 0;
-    margin-bottom: 100px;
     width: 264px;
-    margin-right:1020px ;
-    margin-left: 156px;
+  
 
 }
 
 
 /*---PORTFOLIO---*/
+
+.portfolio-card{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .button-container{
     display: flex;
     justify-content: center;
@@ -397,6 +404,10 @@ body{
     /* background-color: tomato;  */
     margin-right: 24px;
     margin-bottom: 48px;
+}
+.card-text{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .card-element:nth-child(3n){
     margin-right: 0;
